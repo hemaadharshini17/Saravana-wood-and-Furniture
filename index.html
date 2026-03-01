@@ -3,25 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JK Cake Shop - Tiruppur | Owned by Hema Dharshini</title>
+    <title>Saravana Wood and Furniture</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>JK Cake Shop</h1>
-            <p>Baked with Love & Served with Sweetness</p>
-            <p class="owner-info">Proudly owned by Hema Dharshini</p>
+            <h1>Saravana Wood and Furniture</h1>
+            <p class="owner">Owned by Mohann</p>
         </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -29,178 +26,107 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h2>Welcome to JK Cake Shop</h2>
-            <p>Your one-stop destination for delicious, affordable cakes in Tiruppur!</p>
-            <p class="affordable-tagline">Premium Quality at Budget-Friendly Prices</p>
-            <a href="#menu" class="btn">Explore Our Menu</a>
+            <h2>Elegant Home Furniture</h2>
+            <p>Discover our premium collection of wooden furniture</p>
+            <a href="#categories" class="btn">Explore Now</a>
         </div>
     </section>
 
-    <section id="menu" class="menu">
-        <h2>Our Delicious Menu</h2>
-        <div class="menu-categories">
-            <button class="category-btn active" data-category="all">All</button>
-            <button class="category-btn" data-category="birthday">Birthday Cakes</button>
-            <button class="category-btn" data-category="wedding">Wedding Cakes</button>
-            <button class="category-btn" data-category="cupcakes">Cupcakes</button>
-            <button class="category-btn" data-category="custom">Custom Cakes</button>
-        </div>
-
-        <div class="menu-items">
-            <!-- Birthday Cakes -->
-            <div class="menu-item" data-category="birthday">
-                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Chocolate Birthday Cake">
-                <h3>Chocolate Birthday Cake</h3>
-                <p class="price">₹250</p>
-                <button class="order-btn">Order Now</button>
+    <section id="categories" class="categories">
+        <h2>Our Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Sofas">
+                <h3>Sofas</h3>
             </div>
-
-            <div class="menu-item" data-category="birthday">
-                <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Vanilla Birthday Cake">
-                <h3>Vanilla Birthday Cake</h3>
-                <p class="price">₹200</p>
-                <button class="order-btn">Order Now</button>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce0687954?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Wooden Beds">
+                <h3>Wooden Beds</h3>
             </div>
-
-            <!-- Wedding Cakes -->
-            <div class="menu-item" data-category="wedding">
-                <img src="https://images.unsplash.com/photo-1596745588923-62315244bc9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="3-Tier Wedding Cake">
-                <h3>3-Tier Wedding Cake</h3>
-                <p class="price">₹3000</p>
-                <button class="order-btn">Order Now</button>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Chairs">
+                <h3>Chairs</h3>
             </div>
-
-            <div class="menu-item" data-category="wedding">
-                <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="White Forest Wedding Cake">
-                <h3>White Forest Wedding Cake</h3>
-                <p class="price">₹3500</p>
-                <button class="order-btn">Order Now</button>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2012&q=80" alt="Wardrobes">
+                <h3>Wardrobes</h3>
             </div>
-
-            <!-- Cupcakes -->
-            <div class="menu-item" data-category="cupcakes">
-                <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Chocolate Cupcakes (6 pc)">
-                <h3>Chocolate Cupcakes (6 pc)</h3>
-                <p class="price">₹150</p>
-                <button class="order-btn">Order Now</button>
-            </div>
-
-            <div class="menu-item" data-category="cupcakes">
-                <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Red Velvet Cupcakes (6 pc)">
-                <h3>Red Velvet Cupcakes (6 pc)</h3>
-                <p class="price">₹180</p>
-                <button class="order-btn">Order Now</button>
-            </div>
-
-            <!-- Custom Cakes -->
-            <div class="menu-item" data-category="custom">
-                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Custom Photo Cake">
-                <h3>Custom Photo Cake</h3>
-                <p class="price">₹500+</p>
-                <button class="order-btn">Order Now</button>
-            </div>
-
-            <div class="menu-item" data-category="custom">
-                <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Custom Theme Cake">
-                <h3>Custom Theme Cake</h3>
-                <p class="price">₹600+</p>
-                <button class="order-btn">Order Now</button>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Office Furniture">
+                <h3>Office Furniture</h3>
             </div>
         </div>
     </section>
 
-    <section class="flavors">
-        <h2>Fresh Cream Flavors Available</h2>
-        <p class="flavor-intro">Indulge in our premium flavors at affordable prices!</p>
-        <div class="flavor-tags">
-            <span>Chocolate</span>
-            <span>Butterscotch</span>
-            <span>Black Forest</span>
-            <span>White Forest</span>
-            <span>Red Velvet</span>
-            <span>Brownies</span>
-            <span>Strawberry</span>
-            <span>Pineapple</span>
-            <span>Mango</span>
+    <section id="featured" class="featured">
+        <h2>Featured Products</h2>
+        <div class="product-slider">
+            <div class="slider-container">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Premium Sofa">
+                    <h3>Premium Sofa</h3>
+                    <p class="price">₹25,000</p>
+                    <p>Elegant and comfortable sofa for your living room.</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce0687954?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Wooden Bed">
+                    <h3>Wooden Bed</h3>
+                    <p class="price">₹18,000</p>
+                    <p>Sturdy and stylish bed for a good night's sleep.</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Modern Chair">
+                    <h3>Modern Chair</h3>
+                    <p class="price">₹6,500</p>
+                    <p>Stylish and comfortable chair for any room.</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Office Furniture Set">
+                    <h3>Office Furniture Set</h3>
+                    <p class="price">₹28,000</p>
+                    <p>Complete office furniture solution for your workspace.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Imported Woods</h3>
+            <p>We offer imported woods from other states.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-discount"></i>
+            <h3>Discounts</h3>
+            <p>Visit our shop and get more discounts on your orders.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Shop Location</h3>
+            <p>Harur Main Road, Dharmapuri (dt), Tamilnadu, India</p>
         </div>
     </section>
 
     <section id="about" class="about">
-        <div class="about-content">
-            <h2>About JK Cake Shop</h2>
-            <p>Located in the heart of Tiruppur, Tamil Nadu, JK Cake Shop has been serving delicious, affordable cakes since 2010. Owned and operated by Hema Dharshini, our mission is to bring joy to every celebration with our freshly baked goods made from the finest ingredients.</p>
-            <p>We specialize in custom cakes for all occasions - birthdays, weddings, anniversaries, and corporate events. Our team of skilled bakers ensures every cake is a masterpiece!</p>
-            <div class="about-highlights">
-                <div class="highlight">
-                    <h3>10+</h3>
-                    <p>Years of Experience</p>
-                </div>
-                <div class="highlight">
-                    <h3>5000+</h3>
-                    <p>Happy Customers</p>
-                </div>
-                <div class="highlight">
-                    <h3>100+</h3>
-                    <p>Delicious Varieties</p>
-                </div>
-            </div>
-        </div>
-        <div class="about-image">
-            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Our Bakery">
-        </div>
-    </section>
-
-    <section id="reviews" class="reviews">
-        <h2>What Our Customers Say</h2>
-        <div class="review-cards">
-            <div class="review-card">
-                <div class="stars">★★★★★</div>
-                <p>"The best cakes in Tiruppur! I ordered a custom birthday cake for my daughter and it was perfect. The attention to detail was amazing."</p>
-                <h4>- Priya R.</h4>
-            </div>
-            <div class="review-card">
-                <div class="stars">★★★★★</div>
-                <p>"JK Cake Shop made our wedding cake dreams come true! It was not only beautiful but delicious too. All our guests loved it."</p>
-                <h4>- Rajesh K.</h4>
-            </div>
-            <div class="review-card">
-                <div class="stars">★★★★★</div>
-                <p>"Affordable and delicious! I order cupcakes from here every month for my office. Everyone always asks where I get them."</p>
-                <h4>- Ananya S.</h4>
-            </div>
-        </div>
+        <h2>About Us</h2>
+        <p>Welcome to Saravana Wood and Furniture! We specialize in providing high-quality wooden furniture and accessories. Our products are crafted with care and designed to enhance the beauty of your home. Visit our shop to explore our wide range of products and enjoy exclusive discounts.</p>
+        <p>We offer design for doors, painting for doors, budget-friendly home accessories, and all designs for wood. Outline orders are available. Place your order for more discounts available in our shop. Visit the shop and place your order.</p>
+        <p>In other states, imported woods are available in our shop.</p>
     </section>
 
     <section id="contact" class="contact">
-        <h2>Visit Us or Order Online</h2>
-        <div class="contact-content">
-            <div class="contact-info">
-                <h3>JK Cake Shop</h3>
-                <p>123, Gandhi Road, Tiruppur, Tamil Nadu 641601</p>
-                <p>Phone: +91 98765 43210</p>
-                <p>Email: info@jkcakeshop.com</p>
-                <p>Open: 9:00 AM - 9:00 PM (Daily)</p>
-            </div>
-            <div class="contact-form">
-                <h3>Send Us a Message</h3>
-                <form>
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <input type="tel" placeholder="Your Phone" required>
-                    <textarea placeholder="Your Message" required></textarea>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </div>
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2023 JK Cake Shop. Owned by Hema Dharshini. All rights reserved.</p>
-        <div class="social-links">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">WhatsApp</a>
-        </div>
+        <p>&copy; 2023 Saravana Wood and Furniture. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
